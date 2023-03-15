@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./food-booking.css">
+	<link rel="stylesheet" href="./aaaaa.css">
+</head>
+<body>
+    <div class="main">
+        <a href="./v.html" class="ab"><button>Go To Home</button></a>
+	<h1>Place Your Order Here!</h1>
+	<form action="javascript:void(0);">
+		<fieldset>
+		<legend><div class="number">1</div> Your Info:</legend>
+		<label for="name">Name:</label><br>
+	<input type="text" id="name" name="user_name"><br>
+		<label for="mail">Email:</label><br>
+	<input type="email" id="mail" name="user_email"><br>
+		<label for="phone">Phone:</label><br>
+	<input type="tel" id="phone" name="user_tel"><br>
+		<label for="address">Address:</label><br>
+		<textarea></textarea>
+	</fieldset>
+	<fieldset>
+		<legend><div class="number">2</div> Pasta Choice:</legend>
+		<input type="radio" id="spaghetti" name="pasta"><label>Spaghetti</label>
+		<input type="radio" id="penne" name="pasta"><label>Penne</label><br>
+		<input type="checkbox" id="glutenfree" name="glutenfree"><label>Gluten Free?</label>
+	</fieldset>
+	<fieldset>
+		<legend><div class="number">3</div> Filling Choice:</legend>
+		<input type="radio" id="mince" name="filling"><label>Meatless Mince</label>
+		<input type="radio" id="lentils" name="filling"><label>Lentils</label>
+	</fieldset>
+		<fieldset>
+			<legend><div class="number">4</div> Your Sides:</legend>
+		<input type="radio" id="bread" name="side"><label>Garlic Bread</label>
+		<input type="radio" id="nobread" name="side"><label>No Garlic Bread</label><br>
+			<input type="checkbox" id="glutenfree" name="glutenfree"><label>Gluten Free?</label>
+	</fieldset>
+	<fieldset>
+		<legend><div class="number">5</div> Extra Fillings:</legend>
+		<input type="checkbox" id="mushrooms" name="mushrooms"><label>Mushrooms</label><br>
+		<input type="checkbox" id="onions" name="onions"><label>Onions</label></br>
+	<input type="checkbox" id="carrots" name="carrots"><label>Carrots</label></br>
+<input type="checkbox" id="celery" name="celery"><label>Celery</label></br>
+<input type="checkbox" id="peas" name="peas"><label>Peas</label></br>
+	</fieldset>
+<fieldset>
+	<legend><div class="number">6</div> Any Allergies/Special Requests:</legend>
+<textarea></textarea>
+</fieldset>
+<input class="button" type="submit" value="Give me Food!" onclick="submitForm()">
+</form>
+</div>
+<div class="order">
+	<h1>Thanks for your order!</h1>
+	<img src="https://i.imgur.com/O0oqbwc.jpg">
+</div>
+<script src="./food-booking.js"></script>
+    
+</body>
+</html>

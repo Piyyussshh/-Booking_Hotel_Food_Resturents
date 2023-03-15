@@ -1,0 +1,816 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unravelling ASPR</title>
+
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js"></script>
+    <script src="https://kit.fontawesome.com/ec7eca096f.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body id="top">
+
+    <header class="header" data-header>
+
+        <div class="overlay" data-overlay></div>
+
+        <div class="header-top">
+            <div class="container">
+
+                <!-- <a href="tel:+01123456790" class="helpline-box"> -->
+
+                <!-- <div class="icon-box">
+            <ion-icon name="call-outline"></ion-icon>
+          </div> -->
+
+                <!-- <div class="wrapper">
+            <p class="helpline-title">For Further Inquires :</p>
+
+            <p class="helpline-number">+91 7091563779</p>
+          </div> -->
+
+                </a>
+
+                <a href="#" class="logo">
+                    <img class="abc" src="./logo4554.png" alt=" " width="12%">
+                </a>
+
+                <div class="header-btn-group">
+
+                    <a href="./search-bar.html"><button class="search-btn" aria-label="Search">
+            <ion-icon name="search"></ion-icon>
+          </button></a>
+                    <a href="./login.html"> <img class="Piyush" src="./images.png" alt=""></a>
+
+                    <button class="nav-open-btn" aria-label="Open Menu" data-nav-open-btn>
+            <ion-icon name="menu-outline"></ion-icon>
+          </button>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="header-bottom">
+            <div class="container">
+
+                <ul class="social-list">
+
+                    <li>
+                        <a href="https://www.facebook.com" class="social-link">
+                            <ion-icon name="logo-facebook"></ion-icon>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://www.twitter.com" class="social-link">
+                            <ion-icon name="logo-twitter"></ion-icon>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://www.youtube.com" class="social-link">
+                            <ion-icon name="logo-youtube"></ion-icon>
+                        </a>
+                    </li>
+
+                </ul>
+
+                <nav class="navbar" data-navbar>
+
+                    <div class="navbar-top">
+
+                        <a href="#" class="logo">
+                            <img src="./logo4554.png" alt="ASPR">
+                        </a>
+
+                        <button class="nav-close-btn" aria-label="Close Menu" data-nav-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+                    </div>
+                    <!-- <div class="among"> <li><a href="./signin_signup.html"><img class="abbb" src="./images.png" alt=""></a></li></div> -->
+
+                    <ul class="navbar-list">
+
+                        <li>
+                            <a href="#home" class="navbar-link" data-nav-link>home</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="navbar-link" data-nav-link>about us</a>
+                        </li>
+
+                        <li>
+                            <a href="#destination" class="navbar-link" data-nav-link>Hotels</a>
+                        </li>
+
+                        <li>
+                            <a href="#package" class="navbar-link" data-nav-link>Foods</a>
+                        </li>
+
+                        <li>
+                            <a href="#gallery" class="navbar-link" data-nav-link>gallery</a>
+                        </li>
+
+                        <li>
+                            <a href="#contact" class="navbar-link" data-nav-link>contact us</a>
+                        </li>
+
+                    </ul>
+
+                </nav>
+
+                <li><a href="./hotels.html"><button class="btn btn-primary">Book Now</button></a></li>
+
+            </div>
+        </div>
+
+    </header>
+
+    <main>
+        <article>
+
+            <section class="hero" id="home">
+                <div class="container">
+
+
+                    <h2 class="h1 hero-title">Experience Pleasure Of The World</h2>
+
+                    <p class="hero-text">
+                        The business of feeding people is the most amazing business in the world
+
+
+                    </p>
+
+                    <div class="btn-group">
+                        <button class="btn btn-primary">Learn more</button>
+
+                        <a href="./v.html"><button class="btn btn-secondary">Buy now</button></a>
+
+                    </div>
+
+                </div>
+            </section>
+
+            <section class="tour-search">
+                <div class="container">
+
+                    <form action="" class="tour-search-form">
+
+                        <div class="input-wrapper">
+                            <label for="destination" class="input-label">Search Destination*</label>
+
+                            <input type="text" name="destination" id="destination" required placeholder="Enter Destination" class="input-field">
+                        </div>
+
+                        <div class="input-wrapper">
+                            <label for="people" class="input-label">Pax Number*</label>
+
+                            <input type="number" name="people" id="people" required placeholder="No.of People" class="input-field">
+                        </div>
+
+                        <div class="input-wrapper">
+                            <label for="checkin" class="input-label">Checkin Date**</label>
+
+                            <input type="date" name="checkin" id="checkin" required class="input-field">
+                        </div>
+
+                        <div class="input-wrapper">
+                            <label for="checkout" class="input-label">Checkout Date*</label>
+
+                            <input type="date" name="checkout" id="checkout" required class="input-field">
+                        </div>
+
+                        <a href="#Book now"> <button type="submit" class="btn btn-secondary">Book now</button></a>
+
+                    </form>
+
+                </div>
+            </section>
+
+            <section class="popular" id="destination">
+                <div class="container">
+
+                    <p class="section-subtitle">Uncover place</p>
+
+                    <h2 class="h2 section-title">Popular Hotels</h2>
+
+                    <p class="section-text">
+                        Hotel & Spa is a family-friendly hotel that offers a wide range of accommodation types, from rooms to suites. All this in the peaceful surroundings of our beautiful gardens, will make your time an unforgettable holiday.
+                    </p>
+
+                    <ul class="popular-list">
+
+                        <li>
+                            <div class="popular-card">
+
+                                <figure class="card-img">
+                                    <img src="./images/popular-1.jpg" alt="San miguel, italy" loading="lazy">
+                                </figure>
+
+                                <div class="card-content">
+
+                                    <div class="card-rating">
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                    </div>
+
+                                    <p class="card-subtitle">
+                                        <a href="#">Italy</a>
+                                    </p>
+
+                                    <h3 class="h3 card-title">
+                                        <a href="#">San miguel</a>
+                                    </h3>
+
+                                    <p class="card-text">
+                                        It started in 2020 together with the Department of Environment in support of government’s and the rehabilitation of the Manila Bay.
+                                    </p>
+
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="popular-card">
+
+                                <figure class="card-img">
+                                    <img src="./images/popular-2.jpg" alt="Burj khalifa, dubai" loading="lazy">
+                                </figure>
+
+                                <div class="card-content">
+
+                                    <div class="card-rating">
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                    </div>
+
+                                    <p class="card-subtitle">
+                                        <a href="#">Dubai</a>
+                                    </p>
+
+                                    <h3 class="h3 card-title">
+                                        <a href="#">Burj khalifa</a>
+                                    </h3>
+
+                                    <p class="card-text">
+                                        The Burj Khalifa, prior to Dubai its inauguration in 2010, skyscraper in Dubai, United Arab Emirates. It is known as the world's tallest building
+                                    </p>
+
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="popular-card">
+
+                                <figure class="card-img">
+                                    <img src="./images/popular-3.jpg" alt="Kyoto temple, japan" loading="lazy">
+                                </figure>
+
+                                <div class="card-content">
+
+                                    <div class="card-rating">
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                    </div>
+
+                                    <p class="card-subtitle">
+                                        <a href="#">Japan</a>
+                                    </p>
+
+                                    <h3 class="h3 card-title">
+                                        <a href="#">Kyoto temple</a>
+                                    </h3>
+
+                                    <p class="card-text">
+                                        Kyoto is justly famous for its incredible temples and shrines believes that everything has a spirit and should be respected.
+                                    </p>
+
+                                </div>
+
+                            </div>
+                        </li>
+
+                    </ul>
+
+                    <a href="./hotels.html"><button class="btn btn-primary">More Hotels</button>
+          </a>
+                </div>
+            </section>
+
+            <section class="package" id="package">
+                <div class="container">
+
+                    <p class="section-subtitle">Popular Foods</p>
+
+                    <h2 class="h2 section-title">Checkout Foods Corner</h2>
+
+                    <p class="section-text">
+                        <!-- Fusce hic augue velit wisi quibusdam pariatur, iusto primis, nec nemo, rutrum. Vestibulum cumque laudantium.
+            Sit ornare
+            mollitia tenetur, aptent. -->
+                    </p>
+
+                    <ul class="package-list">
+
+                        <li>
+                            <div class="package-card">
+
+                                <figure class="card-banner">
+                                    <img src="./alexandru-bogdan-ghita-UeYkqQh4PoI-unsplash.jpg" alt="Experience The Great Holiday On Beach" loading="lazy">
+                                </figure>
+
+                                <div class="card-content">
+
+                                    <h3 class="h3 card-title">Rosted ribs with sliced tamatoes and patatoes</h3>
+
+                                    <p class="card-text">
+                                        most fool-proof way to make sure that your ribs are fall off the bone tender is to bake them, covered, at a low temperature in your oven. We bake our ribs in a 275° F oven for two to three hours. It is this simple method that guarantees tender ribs!
+                                    </p>
+
+                                    <ul class="card-meta-list">
+
+                                        <li class="card-meta-item">
+                                            <div class="meta-box">
+                                                <ion-icon name="time"></ion-icon>
+
+                                                <p class="text">7D/6N</p>
+                                            </div>
+                                        </li>
+
+                                        <li class="card-meta-item">
+                                            <div class="meta-box">
+                                                <ion-icon name="people"></ion-icon>
+
+                                                <p class="text">pax: 10</p>
+                                            </div>
+                                        </li>
+
+                                        <li class="card-meta-item">
+                                            <div class="meta-box">
+                                                <ion-icon name="location"></ion-icon>
+
+                                                <p class="text">Dubai</p>
+                                            </div>
+                                        </li>
+
+                                    </ul>
+
+                                </div>
+
+                                <div class="card-price">
+
+                                    <div class="wrapper">
+
+                                        <p class="reviews">(25 reviews)</p>
+
+                                        <div class="card-rating">
+                                            <ion-icon name="star"></ion-icon>
+                                            <ion-icon name="star"></ion-icon>
+                                            <ion-icon name="star"></ion-icon>
+                                            <ion-icon name="star"></ion-icon>
+                                            <ion-icon name="star"></ion-icon>
+                                        </div>
+
+                                    </div>
+
+                                    <p class="price">
+                                        $75
+                                        <!-- <span>/ per person</span> -->
+                                    </p>
+
+                                    <a href="./food-booking.html"><button class="btn btn-secondary">Buy Now</button></a>
+
+                                </div>
+                                <br>
+
+                            </div>
+                            <div class="package-card">
+
+                                <figure class="card-banner">
+                                    <img src="./brooke-lark-nTZOILVZuOg-unsplash.jpg" alt="Experience The Great Holiday On Beach" loading="lazy">
+                                </figure>
+
+                                <div class="card-content">
+
+                                    <h3 class="h3 card-title"> Malta spirulina banana nicecream</h3>
+
+                                    <p class="card-text">
+                                        When snack time hits sometimes I’m craving a sweeter treat. That’s when I turn to this banana nice cream recipe. It’s got the texture of ice cream yet a lot fewer ingredients + no dairy
+                                    </p>
+
+                                    <ul class="card-meta-list">
+
+                                        <li class="card-meta-item">
+                                            <div class="meta-box">
+                                                <ion-icon name="time"></ion-icon>
+
+                                                <p class="text">8D/7N</p>
+                                            </div>
+                                        </li>
+
+                                        <li class="card-meta-item">
+                                            <div class="meta-box">
+                                                <ion-icon name="people"></ion-icon>
+
+                                                <p class="text">pax: 10</p>
+                                            </div>
+                                        </li>
+
+                                        <li class="card-meta-item">
+                                            <div class="meta-box">
+                                                <ion-icon name="location"></ion-icon>
+
+                                                <p class="text">Japan</p>
+                                            </div>
+                                        </li>
+
+                                    </ul>
+
+                                </div>
+
+                                <div class="card-price">
+
+                                    <div class="wrapper">
+
+                                        <p class="reviews">(25 reviews)</p>
+
+                                        <div class="card-rating">
+                                            <ion-icon name="star"></ion-icon>
+                                            <ion-icon name="star"></ion-icon>
+                                            <ion-icon name="star"></ion-icon>
+                                            <ion-icon name="star"></ion-icon>
+                                            <ion-icon name="star"></ion-icon>
+                                        </div>
+
+                                    </div>
+
+                                    <p class="price">
+                                        $70
+                                        <!-- <span>/ per person</span> -->
+                                    </p>
+
+                                    <a href="./food-booking.html"><button class="btn btn-secondary">Buy Now</button></a>
+
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="package-card">
+
+                                <figure class="card-banner">
+                                    <img src="./fathul-abrar-ZqREbckCRQA-unsplash.jpg" alt="Summer Holiday To The Oxolotan River" loading="lazy">
+                                </figure>
+
+                                <div class="card-content">
+
+                                    <h3 class="h3 card-title"> Brown wooden chopping board with vegetable salad</h3>
+
+                                    <p class="card-text">
+                                        Qualität hat arg nachgelassen, Statt Hunh war Kebapfleisch im Quesadilla, und Topfen im Burrito, echt eigenartiges zusammengemanschtes Zeug
+                                    </p>
+
+                                    <ul class="card-meta-list">
+
+                                        <li class="card-meta-item">
+                                            <div class="meta-box">
+                                                <ion-icon name="time"></ion-icon>
+
+                                                <p class="text">7D/6N</p>
+                                            </div>
+                                        </li>
+
+                                        <li class="card-meta-item">
+                                            <div class="meta-box">
+                                                <ion-icon name="people"></ion-icon>
+
+                                                <p class="text">pax: 10</p>
+                                            </div>
+                                        </li>
+
+                                        <li class="card-meta-item">
+                                            <div class="meta-box">
+                                                <ion-icon name="location"></ion-icon>
+
+                                                <p class="text">Italy</p>
+                                            </div>
+                                        </li>
+
+                                    </ul>
+
+                                </div>
+
+                                <div class="card-price">
+
+                                    <div class="wrapper">
+
+                                        <p class="reviews">(20 reviews)</p>
+
+                                        <div class="card-rating">
+                                            <ion-icon name="star"></ion-icon>
+                                            <ion-icon name="star"></ion-icon>
+                                            <ion-icon name="star"></ion-icon>
+                                            <ion-icon name="star"></ion-icon>
+                                            <ion-icon name="star"></ion-icon>
+                                        </div>
+
+                                    </div>
+
+                                    <p class="price">
+                                        $87
+                                        <!-- <span>/ per person</span> -->
+                                    </p>
+
+                                    <a href="./food-booking.html"><button class="btn btn-secondary">Buy Now</button></a>
+
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="package-card">
+
+                                <figure class="card-banner">
+                                    <img src="./pexels-chan-walrus-958545.jpg" alt="Santorini Island's Weekend Vacation" loading="lazy">
+                                </figure>
+
+                                <div class="card-content">
+
+                                    <h3 class="h3 card-title">India's Best Sikkim Food</h3>
+
+                                    <p class="card-text">
+                                        Vaisakhi also called Baisakhi, is a religious festival celebrated by Sikhs. This year Vaisakhi falls on Thursday 14th April. It is Sikhism’s most important festival
+                                    </p>
+
+                                    <ul class="card-meta-list">
+
+                                        <li class="card-meta-item">
+                                            <div class="meta-box">
+                                                <ion-icon name="time"></ion-icon>
+
+                                                <p class="text">7D/6N</p>
+                                            </div>
+                                        </li>
+
+                                        <li class="card-meta-item">
+                                            <div class="meta-box">
+                                                <ion-icon name="people"></ion-icon>
+
+                                                <p class="text">pax: 10</p>
+                                            </div>
+                                        </li>
+
+                                        <li class="card-meta-item">
+                                            <div class="meta-box">
+                                                <ion-icon name="location"></ion-icon>
+
+                                                <p class="text">India</p>
+                                            </div>
+                                        </li>
+
+                                    </ul>
+
+                                </div>
+
+                                <div class="card-price">
+
+                                    <div class="wrapper">
+
+                                        <p class="reviews">(40 reviews)</p>
+
+                                        <div class="card-rating">
+                                            <ion-icon name="star"></ion-icon>
+                                            <ion-icon name="star"></ion-icon>
+                                            <ion-icon name="star"></ion-icon>
+                                            <ion-icon name="star"></ion-icon>
+                                            <ion-icon name="star"></ion-icon>
+                                        </div>
+
+                                    </div>
+
+                                    <p class="price">
+                                        $69
+                                        <!-- <span>/ per person</span> -->
+                                    </p>
+
+                                    <a href="./food-booking.html"><button class="btn btn-secondary">Buy Now</button></a>
+
+                                </div>
+
+                            </div>
+                        </li>
+
+                    </ul>
+
+                    <a href="./v.html"><button class="btn btn-primary">View All Foods</button>
+          </a>
+                </div>
+            </section>
+
+            <section class="gallery" id="gallery">
+                <div class="container">
+
+                    <p class="section-subtitle">Photo Gallery</p>
+
+                    <h2 class="h2 section-title">Photo's From Foods and Hotels</h2>
+
+                    <p class="section-text">
+                        Fusce hic augue velit wisi quibusdam pariatur, iusto primis, nec nemo, rutrum. Vestibulum cumque laudantium. Sit ornare mollitia tenetur, aptent.
+                    </p>
+
+                    <ul class="gallery-list">
+
+                        <li class="gallery-item">
+                            <figure class="gallery-image">
+                                <img src="./20.jpg" alt="Gallery image">
+                            </figure>
+                        </li>
+
+                        <li class="gallery-item">
+                            <figure class="gallery-image">
+                                <img src="./29.jpg" alt="Gallery image">
+                            </figure>
+                        </li>
+
+                        <li class="gallery-item">
+                            <figure class="gallery-image">
+                                <img src="./59.jpg" alt="Gallery image">
+                            </figure>
+                        </li>
+
+                        <li class="gallery-item">
+                            <figure class="gallery-image">
+                                <img src="./a4.jpg" alt="Gallery image">
+                            </figure>
+                        </li>
+
+                        <li class="gallery-item">
+                            <figure class="gallery-image">
+                                <img src="./a5.jpg" alt="Gallery image">
+                            </figure>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </section>
+
+            <section class="cta" id="contact">
+                <div class="container">
+
+                    <div class="cta-content">
+                        <p class="section-subtitle">Call To Action</p>
+
+                        <h2 class="h2 section-title">Ready For Unforgatable Hotels and Foods Corner. Remember Us!</h2>
+
+                        <p class="section-text">
+                            Fusce hic augue velit wisi quibusdam pariatur, iusto primis, nec nemo, rutrum. Vestibulum cumque laudantium. Sit ornare mollitia tenetur, aptent.
+                        </p>
+                    </div>
+
+                    <button class="btn btn-secondary">Contact Us !</button>
+
+                </div>
+            </section>
+
+        </article>
+    </main>
+
+
+    <footer class="footer">
+
+        <div class="footer-top">
+            <div class="container">
+
+                <div class="footer-brand">
+
+                    <a href="#" class="logo">
+                        <img src="./logo.png" alt="Tourly logo">
+                    </a>
+
+                    <p class="footer-text">
+                        Urna ratione ante harum provident, eleifend, vulputate molestiae proin fringilla, praesentium magna conubia at perferendis, pretium, aenean aut ultrices.
+                    </p>
+
+                </div>
+
+                <div class="footer-contact">
+
+                    <h4 class="contact-title">Contact Us</h4>
+
+                    <p class="contact-text">
+                        Feel free to contact and reach us !!
+                    </p>
+
+                    <ul>
+
+                        <li class="contact-item">
+                            <ion-icon name="call-outline"></ion-icon>
+
+                            <a href="tel:+01123456790" class="contact-link">+91 7091563779</a>
+                        </li>
+
+                        <li class="contact-item">
+                            <ion-icon name="mail-outline"></ion-icon>
+
+                            <a href="mailto:info.tourly.com" class="contact-link">info.ASPR.com</a>
+                        </li>
+
+                        <li class="contact-item">
+                            <ion-icon name="location-outline"></ion-icon>
+
+                            <address>Prabhatam Heights, Patel nagar,<br> Bhopal,Madhya Pradesh, India</address>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+                <div class="footer-form">
+
+                    <p class="form-text">
+                        Subscribe our newsletter for more update & news !!
+                    </p>
+
+                    <form action="" class="form-wrapper">
+                        <input type="email" name="email" class="input-field" placeholder="Enter Your Email" required>
+
+                        <button type="submit" class="btn btn-secondary">Subscribe</button>
+                    </form>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container">
+
+                <p class="copyright">
+                    &copy; 2023 <a href="">ASPR</a>. All rights reserved
+                </p>
+
+                <ul class="footer-bottom-list">
+
+                    <li>
+                        <a href="#" class="footer-bottom-link">Privacy Policy</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer-bottom-link">Term & Condition</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer-bottom-link">FAQ</a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+
+    </footer>
+
+    <a href="#top" class="go-top" data-go-top>
+        <ion-icon name="chevron-up-outline"></ion-icon>
+    </a>
+
+    <script src="./script.js"></script>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script type="module" src="scripts/button.js"></script>
+    <script type="module" src="scripts/validate.js"></script>
+    <script type="module" src="scripts/animate.js"></script>
+</body>
+
+</html>
